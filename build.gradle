@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+}
+
+group 'com.yet.spring'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+ext {
+    springVersion = '4.3.18.RELEASE'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'org.springframework', name: 'spring-context', version: rootProject.ext.springVersion
+    compile group: 'org.springframework', name: 'spring-context-support', version: rootProject.ext.springVersion
+    compile group: 'org.springframework', name: 'spring-tx', version: rootProject.ext.springVersion
+    compile group: 'org.springframework', name: 'spring-jdbc', version: rootProject.ext.springVersion
+    compileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.2'
+}
