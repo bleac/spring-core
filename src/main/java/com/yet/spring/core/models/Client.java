@@ -1,4 +1,4 @@
-package com.yet.spring.core;
+package com.yet.spring.core.models;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

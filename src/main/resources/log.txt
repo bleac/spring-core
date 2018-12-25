@@ -1,0 +1,1 @@
+Event{id='1740212841', msg='Some event for user John Smith', date=25 груд. 2018 17:13:10}Event{id='-1320316420', msg='Some event for user John Smith', date=25 груд. 2018 17:13:10}Event{id='-1320316420', msg='Some event for user John Smith', date=25 груд. 2018 17:13:10}

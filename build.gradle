@@ -22,4 +22,5 @@ dependencies {
     compile group: 'org.springframework', name: 'spring-tx', version: rootProject.ext.springVersion
     compile group: 'org.springframework', name: 'spring-jdbc', version: rootProject.ext.springVersion
     compileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.2'
+    compile group: 'commons-io', name: 'commons-io', version: '2.4'
 }
